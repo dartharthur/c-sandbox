@@ -2,12 +2,12 @@
 
 #include <stdio.h>
 
-/* print Fahrenheit-Celsius table 
-for fahr = 0, 20, ... 300 floating-point version */
+/* print Celsius to Fahrenheit table 
+for celsius = 0, 20, ... 300 floating-point version */
 
 int main()
 {
-    float fahr, celsius; /* in C, all variables must be declared befor they are used */
+    float fahr, celsius; /* in C, all variables must be declared before they are used */
     float lower, upper, step; /* statements end in semi-colons */
 
     lower = 0;      /* lower limit of temperature scale */
@@ -15,6 +15,7 @@ int main()
     step = 20;      /* step size */
 
     fahr = lower; /* int is converted to float */
+    printf("%s\t%s", "Fahrenheit", "Celsius\n");
     while (fahr <= upper) {
         celsius = (5.0 / 9.0) * (fahr - 32.0); /* decimal point in a constant indicates that it's a floating point */
          /* %3.0: three char wide, no decimal point / fraction digits */
