@@ -19,6 +19,8 @@ int main()
         printf("%3d\t%6d\n", fahr, celsius); /* %d substituted positionally with integer arguments */
         fahr = fahr + step; /* can augment %d with widths for prettier output */
     }
+
+    return 0;
 }
 
 /* problem: we have used integer arithmetic, so Celsius temperatures are inaccurate */

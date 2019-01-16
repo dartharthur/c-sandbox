@@ -22,4 +22,6 @@ int main()
         printf("%3.0f\t%6.1f\n", fahr, celsius); /* %f for floating point */
         fahr = fahr + step; /* can augment %f with widths for prettier output */
     }
+    
+    return 0;
 }
