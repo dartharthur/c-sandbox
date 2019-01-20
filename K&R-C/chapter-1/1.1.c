@@ -1,3 +1,5 @@
+/* Getting Started */
+
 #include <stdio.h>
 
 int main() 
