@@ -16,7 +16,8 @@ int main()
     step = 20;      /* step size */
 
     fahr = lower;
-    while (fahr <= upper) {
+    while (fahr <= upper) 
+    {
         celsius = 5 * (fahr - 32) / 9; /* mult by 5 first bc integer division discards fraction, 5/9 truncates to zero */
         printf("%3d\t%6d\n", fahr, celsius); /* %d substituted positionally with integer arguments */
         fahr = fahr + step; /* can augment %d with widths for prettier output */

@@ -43,4 +43,6 @@ int main()
     When reading from a file, we will exit the loop. We will eventually hit
     the end of the file and getChar() will equal EOF. Any print statements
     after the loop will then run.
+
+    Reference: https://bytes.com/topic/c/answers/941322-why-does-printf-not-print-after-while-loop-c
 */
