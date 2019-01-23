@@ -13,8 +13,7 @@ main()
 {
     int c, nl;
     nl = 0;
-    while ((c = getchar()) != EOF)
-    {
+    while ((c = getchar()) != EOF) {
         /*
             A character written between single quotes represents an
             integer value equal to the numerical value of the character
@@ -24,8 +23,7 @@ main()
             For example: 'A' is a character constant, in the ASCII
             character set its value is 65.
         */
-        if (c == '\n') /* 10 in ASCII */
-        {
+        if (c == '\n') /* 10 in ASCII */ {
             ++nl;
         }
     }

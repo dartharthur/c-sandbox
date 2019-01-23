@@ -24,8 +24,7 @@ int main()
         (the isolated semi-colon) satisfies this requirement.
         We put it on a separate line for visibility.
     */
-    for (nc = 0; getchar() != EOF; ++nc)
-    {
+    for (nc = 0; getchar() != EOF; ++nc) {
         ;
     }
          

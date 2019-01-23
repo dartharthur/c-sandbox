@@ -6,10 +6,8 @@ int main()
     bl = 0;
     t = 0;
     nl = 0;
-    while ((c = getchar()) != EOF)
-    {
-        switch(c) 
-        {
+    while ((c = getchar()) != EOF) {
+        switch(c) {
             case '\t': putchar('\\'); putchar('t'); break;
             case '\b': putchar('\\'); putchar('b'); break;
             case '\\': putchar('\\'); putchar('\\'); break;

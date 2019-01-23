@@ -10,10 +10,8 @@ int main()
     nwhite = nother = 0;
     for (i = 0; i < 10; ++i)
         ndigit[i] = 0;
-    while ((c = getchar()) != EOF)
-    {
-        if (c >= '0' && c <= '9')
-        {
+    while ((c = getchar()) != EOF) {
+        if (c >= '0' && c <= '9') {
             printf("%d\n", c);
             /*
                 ASCII value for printable digit char '0' is 48.

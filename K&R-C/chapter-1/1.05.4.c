@@ -12,8 +12,7 @@ int main()
     state = OUT;
     /* nl = (nw = (nc = 0)); */
     nl = nw = nc = 0; /* an assignment is an expression */
-    while ((c = getchar()) != EOF)
-    {
+    while ((c = getchar()) != EOF) {
         ++nc;
         if (c == '\n')
             ++nl;

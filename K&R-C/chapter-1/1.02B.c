@@ -18,8 +18,7 @@ int main()
 
     fahr = lower; /* int is converted to float */
     printf("%s\t%s", "Fahrenheit", "Celsius\n");
-    while (fahr <= upper) 
-    {
+    while (fahr <= upper) {
         celsius = (5.0 / 9.0) * (fahr - 32.0); /* decimal point in a constant indicates that it's a floating point */
          /* %3.0: three char wide, no decimal point / fraction digits */
          /* %6.1: six char wide, one digit after decimal point */

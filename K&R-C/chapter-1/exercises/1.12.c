@@ -8,8 +8,7 @@ int main()
 {
     int c, pstate, state;
     pstate = state = OUT;
-    while ((c = getchar()) != EOF)
-    {
+    while ((c = getchar()) != EOF) {
         if (c == ' ' || c == '\n' || c == '\t')
             state = OUT;
         else if (state == OUT)
